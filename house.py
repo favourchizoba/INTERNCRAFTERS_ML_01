@@ -127,6 +127,39 @@ if st.button('Predict Price'):
     
 
 
+
+# Add spacing using Markdown
+st.markdown("<br>", unsafe_allow_html=True)
+st.markdown("<br>", unsafe_allow_html=True)
+st.divider()
+
+
+
+# User Guide and Help Section
+st.header('Model Interpretation')
+if st.checkbox('Show Interpretation'):
+    st.header('Interpretation')
+    
+    st.write(f'The intercept of the model is: ${round(model.intercept_, 2):,.2f}')
+    st.write('- This line shows the intercept of the regression model. The intercept is a constant term that represents the expected value of the dependent variable (e.g., house price) when all independent variables (like area income, house age, etc.) are zero.')
+    st.write('- It is formatted to two decimal places and includes commas for thousands.')
+    
+    st.write(f'A unit change in the average area income causes the price to change by ${round(model.coef_[0], 2):,.2f}')
+    st.write('- This line indicates that a one-unit increase in the average area income will lead to a specific change in house prices, as given by the first coefficient (model.coef_[0]) in the model.')
+    
+    st.write(f'A unit change in the average house age causes the price to change by ${round(model.coef_[1], 2):,.2f}')
+    st.write('- This line explains the impact of a one-unit change in average house age on house prices as indicated by the second coefficient (model.coef_[1]) in the model.')
+    
+    st.write(f'A unit change in the average rooms causes the price to change by ${round(model.coef_[2], 2):,.2f}')
+    st.write('- This line describes how a one-unit change in the average number of rooms affects house prices based on the third coefficient (model.coef_[2]).')
+    
+    st.write(f'A unit change in the average bedrooms causes the price to change by ${round(model.coef_[3], 2):,.2f}')
+    st.write('- This line explains how altering the number of bedrooms impacts house prices according to the fourth coefficient (model.coef_[3]).')
+    
+    st.write(f'A unit change in the area population causes the price to change by ${round(model.coef_[4], 2):,.2f}')
+    st.write('- This line indicates how changes in area population affect house prices based on the model’s fifth coefficient (model.coef_[4]).')
+
+
 # User Guide and Help Section
 st.header('User Guide & Help')
 
