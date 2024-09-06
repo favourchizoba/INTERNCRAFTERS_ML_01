@@ -1,0 +1,7 @@
+[theme]
+ #for display theme 
+primaryColor="#FF004D"
+backgroundColor="#F5F5F5"
+secondaryBackgroundColor="#60BFBF"
+textColor="#31333F"
+font="serif"
