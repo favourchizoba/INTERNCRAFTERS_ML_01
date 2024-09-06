@@ -16,7 +16,7 @@ st.markdown("<h1 style = 'color: #1d267d; text-align: center; font-size: 60px; f
 st.markdown("<br>", unsafe_allow_html=True)
 
 # #add image
-st.image('pngwing.com (28).png',width = 500)
+st.image('INTERNCRAFTERS_ML_01\House Renovation Ideas_ The Green Perspective - Pinoy House Designs.jpeg',width = 500)
 #add sidebar image
 st.sidebar.image('pngwing.com (30).png', width=300, caption = 'Welcome User')
 
