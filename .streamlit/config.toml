@@ -1,13 +1,13 @@
-[theme]
-primaryColor="#FF004D"
-backgroundColor="#F5F5F5"
-secondaryBackgroundColor="#60BFBF"
-textColor="#31333F"
-font="serif"
-
 # [theme]
-# primaryColor="#FF4B4B"  
-# backgroundColor="#70E6D2"
-# secondaryBackgroundColor="#B4F2E8"
+# primaryColor="#FF004D"
+# backgroundColor="#F5F5F5"
+# secondaryBackgroundColor="#60BFBF"
 # textColor="#31333F"
 # font="serif"
+
+[theme]
+primaryColor="#FF4B4B"  
+backgroundColor="#70E6D2"
+secondaryBackgroundColor="#B4F2E8"
+textColor="#31333F"
+font="serif"
