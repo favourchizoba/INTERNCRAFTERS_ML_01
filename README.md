@@ -56,7 +56,7 @@ The features in the dataset are used to train the model, and the target variable
 I have built an interactive Streamlit app for this project. The app allows users to input new data and get house price predictions based on the trained 
 For a complete guide on using Streamlit to run and deploy the project, refer to the Streamlit Cheatsheet.
 **link for viewing my streamlit cheatsheet is below**
-[https://housingpricepredictions.streamlit.app/]
+(https://housingpricepredictions.streamlit.app/)
 
 Repository Structure
 bash
