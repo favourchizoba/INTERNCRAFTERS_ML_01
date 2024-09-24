@@ -52,11 +52,16 @@ The features in the dataset are used to train the model, and the target variable
 **Model Evaluation**: Evaluating the model's performance using metrics like R² and Mean Squared Error (MSE).
 **Predictions**: Using the model to predict house prices for new data.
 
-**Streamlit App**
-I have built an interactive Streamlit app for this project. The app allows users to input new data and get house price predictions based on the trained 
-For a complete guide on using Streamlit to run and deploy the project, refer to the Streamlit Cheatsheet.
-**link for viewing my streamlit cheatsheet is below**
-(https://housingpricepredictions.streamlit.app/)
+I have built an interactive Streamlit app for this project. The app allows users to input new data and get house price predictions based on the trained model.
+
+## Streamlit App
+
+You can access the app here: [Housing Price Predictions](https://housingpricepredictions.streamlit.app/).
+
+For a complete guide on using Streamlit to run and deploy the project, refer to the [Streamlit Cheatsheet](https://housingpricepredictions.streamlit.app/).
+
+## Contact
+For more information, visit my [Email Profile](chibuezechizobafavour@gmail.com).
 
 Repository Structure
 bash
